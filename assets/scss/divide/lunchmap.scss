@@ -1,0 +1,23 @@
+.fb {
+    &__lunchmap {
+        width: 100%;
+        height: 100%;
+        
+        &__map {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__layer {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 80%;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            border-radius: vw(30px);
+        }
+    }
+}

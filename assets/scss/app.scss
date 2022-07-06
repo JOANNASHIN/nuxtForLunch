@@ -1,5 +1,7 @@
 //공통
 @import "./library/vw.scss";
+@import "/node_modules/swiper/swiper.scss";
+
 
 //TEXT
 $black: #1e1e1e;
@@ -140,8 +142,13 @@ $lightpcolor:#dcedc8;//rgba(236, 113, 38, 0.7);
     }
 }
 
-//페이지별
+//공통
 @import "./divide/font.scss";
 @import "./divide/reset.scss";
 @import "./divide/common.scss";
 @import "./divide/layout.scss";
+
+
+//페이지별
+@import "./divide/main.scss";
+@import "./divide/lunchmap.scss";

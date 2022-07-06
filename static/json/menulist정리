@@ -1,0 +1,78 @@
+{
+    "menuList": [
+        {
+            "name": "햄버거",
+            "restaurant": [
+                {
+                    "id": "0",
+                    "name": "노브랜드 버거",
+                    "loc": "37.48534890822267",
+                    "lat": "127.03440779812728",
+                    "address": "서울특별시 강남구 도곡1동 강남대로 240",
+                    "score": 5,
+                    "tel": "",
+                    "photo": [
+                        {
+                            "id": 0,
+                            "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                        }
+                    ],
+                    "openingtime": "",
+                    "description": "",
+                    "menu": [],
+                    "menuPicture": []
+                }
+            ]
+        },
+
+        {
+            "name": "닭갈비",
+            "restaurant": [
+                {
+                    "id": "1",
+                    "name": "춘천 우리 닭갈비",
+                    "loc": "37.48534890822267",
+                    "lat": "127.03440779812728",
+                    "address": "서울특별시 강남구 도곡1동 강남대로 240",
+                    "score": 5,
+                    "tel": "",
+                    "photo": [
+                        {
+                            "id": 0,
+                            "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                        }
+                    ],
+                    "openingtime": "",
+                    "description": "",
+                    "menu": [],
+                    "menuPicture": []
+                }
+            ]
+        },
+
+        {
+            "name": "불고기",
+            "restaurant": [
+                {
+                    "id": "2",
+                    "name": "경성불백",
+                    "loc": "37.479162161747034",
+                    "lat": "127.04053519812724",
+                    "address": "서울특별시 서초구 양재1동 바우뫼로 188",
+                    "score": 5,
+                    "tel": "",
+                    "photo": [
+                        {
+                            "id": 0,
+                            "src": "https://lh5.googleusercontent.com/p/AF1QipNiOi4A-MCcn7kHEtl4KbWnctBqraJAjMeatbUY=w426-h240-k-no"
+                        }
+                    ],
+                    "openingtime": "",
+                    "description": "콩비지",
+                    "menu": [],
+                    "menuPicture": []
+                }
+            ]
+        }
+    ]
+}

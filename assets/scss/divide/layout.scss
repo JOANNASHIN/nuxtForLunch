@@ -6,38 +6,43 @@
     }
 
     &__layout {
-        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 100%;
     }
 
     &__header {
-        display: block;
+        flex: 0 0 vw(50px);
         background: $lightpcolor;
         text-align: center;
     }
 
     &__title {
         position: relative;
-        display: inline-block;
-        padding: vw(10px 0 10px 40px);
+        padding: 0;
+        // padding: vw(10px 0 10px 40px);
         color: $black;
         font-weight: 400;
         font-size: vw(22px);
-        
-        &:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: vw(30px);
-            height: 100%;
-            background: url("../images/common/logo.png") no-repeat 0 center / 100% auto;
-        }
+        line-height: vw(50px);
+        // &:after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: vw(30px);
+        //     height: 100%;
+        //     background: url("../images/common/logo.png") no-repeat 0 center / 100% auto;
+        // }
+    }
+
+    &__content {
+        flex: 1 1 auto;
     }
 
     &__footer {
-        padding-bottom: vw(190px);
+        // padding-bottom: vw(190px);
         
         &__wrapper {
             position: fixed;

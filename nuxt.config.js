@@ -33,6 +33,7 @@ export default {
     },
 
     script: [
+        {src: `//dapi.kakao.com/v2/maps/sdk.js?appkey=b5d70053a01fa96cdc3ff5bf1b2dca51&libraries=services,clusterer,drawing`},
         {src: "/__/firebase/8.4.1/firebase-app.js"},
         {src: "/__/firebase/8.4.1/firebase-auth.js"},
         {src: "/__/firebase/8.4.1/firebase-database.js"},
@@ -56,7 +57,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    "~/plugins/global.js"
+    "~/mixins/global"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

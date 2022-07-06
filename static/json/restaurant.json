@@ -1,0 +1,105 @@
+{
+    "restaurantList": [
+        {
+            "name": "모범 떡볶이",
+            "location": "37.48512597601747, 127.03206392495402",
+            "mainImage": "",
+            "address": "서울특별시 강남구 도곡1동 강남대로 240",
+            "isWish": false,
+            "score": 5,
+            "howFar": "12",
+            "tel": "",
+            "photo": [
+                {
+                    "id": 0,
+                    "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                }
+            ],
+            "openingHours": "",
+            "description": "",
+            "menu": [
+                {
+                    "name": "떡볶이"
+                }
+            ],
+            "menuImage": []
+        },
+
+        {
+            "name": "경성불백",
+            "location": "37.479162161747034, 127.04053519812724",
+            "mainImage": "",
+            "address": "서울특별시 강남구 도곡1동 강남대로 240",
+            "isWish": false,
+            "score": 5,
+            "howFar": "12",
+            "tel": "",
+            "photo": [
+                {
+                    "id": 0,
+                    "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                }
+            ],
+            "openingHours": "",
+            "description": "",
+            "menu": [
+                {"name": "불고기"},
+                {"name": "콩비지찌개"}
+            ],
+            "menuImage": []
+        },
+
+        {
+            "name": "춘천 우리 닭갈비",
+            "location": "37.48112248605404, 127.04116125789652",
+            "mainImage": "",
+            "address": "서울특별시 강남구 도곡1동 강남대로 240",
+            "isWish": true,
+            "score": 5,
+            "howFar": "5",
+            "tel": "",
+            "photo": [
+                {
+                    "id": 0,
+                    "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                }
+            ],
+            "openingHours": "",
+            "description": "",
+            "menu": [
+                {
+                    "name": "닭갈비"
+                },
+
+                {
+                    "name": "닭갈비볶음밥"
+                }
+            ],
+            "menuImage": []
+        },
+        {
+            "name": "노브랜드 버거",
+            "location": "37.48534890822267, 127.03440779812728",
+            "mainImage": "",
+            "address": "서울특별시 강남구 도곡1동 강남대로 240",
+            "isWish": true,
+            "score": 5,
+            "howFar": "5",
+            "tel": "",
+            "photo": [
+                {
+                    "id": 0,
+                    "src": "https://lh5.googleusercontent.com/p/AF1QipMr5RRBonBhcrYDEfHtOlbXKnulTgVvRLkUbPKU=w408-h306-k-no"
+                }
+            ],
+            "openingHours": "",
+            "description": "",
+            "menu": [
+                {
+                    "name": "햄버거"
+                }
+            ],
+            "menuImage": []
+        }
+    ]
+}

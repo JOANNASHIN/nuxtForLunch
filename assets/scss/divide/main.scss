@@ -1,0 +1,57 @@
+.fb {
+    &__main {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+
+        &__wrapper {
+            padding: vw(0 50px 100px);
+        }   
+
+        &__recommend {
+            margin: vw(0 0 40px);
+
+            .recommend {
+                &__text {
+                    display: block;
+                    @include fontcss($black, 200, vw(50px), 1.4);
+                }
+
+                &__rolling {
+                    position: relative;
+                    overflow: hidden;
+                    height: vw(126px);
+                }
+
+                &__wrapper {
+                   transform: translate(0, 0);
+                }
+
+                &__menu {
+                    display: block;
+                    padding: vw(14px 0);
+                    @include fontcss($pcolor, 600, vw(70px), 1.4);
+
+                    &--before {
+                        position: relative;
+                        z-index: 5;
+                        width: 100%;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+
+        &__nav {
+            display: block;
+
+            button {
+                display: inline-block;
+                margin-right: vw(200px);
+                @include fontcss($medium, 400, vw(36px), 1.4);
+            }
+        }
+        
+    }
+}

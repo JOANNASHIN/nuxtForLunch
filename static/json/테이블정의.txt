@@ -1,0 +1,27 @@
+음식
+    [타입]  
+        한식 koreanFood
+        일식 japaneseFood
+        중식 chineseFood
+        양식 westernFood
+        아시안 asianFood
+        분식 schoolfood
+        간식 snackfood
+
+    [탄수화물]
+        밥 rice
+        면 noodle
+        빵 bread
+        떡 ricecake
+
+    [요리방식]
+        국물 soup
+        구이 roast
+        볶음 stirfry
+        튀김 fry
+        삶기 boil
+        아무것도 안한거 fresh 
+
+
+음식점
+    
